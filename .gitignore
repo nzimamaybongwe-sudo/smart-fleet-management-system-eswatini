@@ -1,0 +1,44 @@
+# ==============================================================================
+# Git Ignore - Logico Fleet Enterprise Management System
+# ==============================================================================
+
+# Environment files
+.env
+.env.backup
+.env.local
+.env.production
+.env.staging
+
+# Server & Application Logs
+*.log
+error_log
+access_log
+logs/
+
+# Operating System Files
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+[Dd]esktop.ini
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Editor & IDE Metadata
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+*.swp
+*.swo
+*~
+
+# Dependencies (if Composer or NPM are added)
+/vendor/
+/node_modules/
+
+# Local temporary and testing scripts
+test*.php
+tmp/
+temp/
